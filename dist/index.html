@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link href="main.css" rel="stylesheet"></head>
+
+<body>
+    <div id="controls">
+        <input type="number" min="0" max="100" step="1" class='js-input' />
+        <button type="button" data-action="render">Создать</button>
+        <button type="button" data-action="destroy">Очистить</button>
+    </div>
+
+    <div id="boxes"></div>
+    <form id="search-form">
+        <input type="text" name="query" autocomplete="off" placeholder="Search images..." />
+    </form>
+    <ul class="gallery">
+
+    </ul>
+    <div class="intersection-trigger"></div>
+
+    <script src="index.js" type="module"></script>
+<script type="text/javascript" src="main.js"></script></body>
+
+</html>

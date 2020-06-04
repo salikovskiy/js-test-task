@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 30px;
+}
+
+button {
+  height: 30px;
+  width: 90px;
+}
+
+input {
+  width: 320px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#boxes {
+  margin-bottom: 10px;
+}
+
+
+.intersection-trigger {
+  margin-bottom: 1px;
+}
+
+.basicLightbox {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.basicLightbox img {
+  display: block;
+  margin: 0 auto;
+  height: 80vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.closeButton {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50px;
+  right: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
