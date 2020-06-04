@@ -26,7 +26,7 @@ builder
     .prepend('^')
     .pad('=');
 
-console.log(builder);
+console.log(builder.value);
 
 // Задача 2 
 const input = document.querySelector(".js-input");

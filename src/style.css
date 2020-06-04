@@ -23,6 +23,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  min-height: 90vh;
 }
 
 #boxes {
@@ -32,6 +33,7 @@ ul {
 
 .intersection-trigger {
   margin-bottom: 1px;
+  height: 1px;
 }
 
 .basicLightbox {
@@ -62,4 +64,9 @@ ul {
   right: 50px;
   border-radius: 50%;
   font-size: 20px;
+}
+
+img.gallery__image {
+  min-height: 300px;
+  height: 300px;
 }
